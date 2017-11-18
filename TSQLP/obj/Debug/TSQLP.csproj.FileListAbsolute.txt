@@ -1,0 +1,6 @@
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLP\bin\Debug\TSQLP.exe.config
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLP\bin\Debug\TSQLP.exe
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLP\bin\Debug\TSQLP.pdb
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLP\obj\Debug\TSQLP.csproj.CoreCompileInputs.cache
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLP\obj\Debug\TSQLP.exe
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLP\obj\Debug\TSQLP.pdb

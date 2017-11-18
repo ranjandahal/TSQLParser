@@ -1,0 +1,11 @@
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\bin\Debug\netcoreapp2.0\TSQLParser.deps.json
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\bin\Debug\netcoreapp2.0\TSQLParser.runtimeconfig.json
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\bin\Debug\netcoreapp2.0\TSQLParser.runtimeconfig.dev.json
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\bin\Debug\netcoreapp2.0\TSQLParser.dll
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\bin\Debug\netcoreapp2.0\TSQLParser.pdb
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\obj\Debug\netcoreapp2.0\TSQLParser.csprojResolveAssemblyReference.cache
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\obj\Debug\netcoreapp2.0\TSQLParser.csproj.CoreCompileInputs.cache
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\obj\Debug\netcoreapp2.0\TSQLParser.AssemblyInfoInputs.cache
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\obj\Debug\netcoreapp2.0\TSQLParser.AssemblyInfo.cs
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\obj\Debug\netcoreapp2.0\TSQLParser.dll
+C:\Users\Ranjan\Source\Repos\TSQLParser\TSQLParser\obj\Debug\netcoreapp2.0\TSQLParser.pdb

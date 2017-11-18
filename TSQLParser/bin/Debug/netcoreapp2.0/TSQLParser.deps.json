@@ -1,0 +1,275 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "9fa2b4d937ed9e064c5d946987827e4d6b3c2926"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "TSQLParser/1.0.0": {
+        "dependencies": {
+          "Microsoft.SqlServer.Scripting.All": "11.0.2100.61",
+          "Microsoft.SqlServer.SqlManagementObjects": "140.17199.0",
+          "Microsoft.SqlServer.TransactSql.ScriptDom": "14.0.3660.1"
+        },
+        "runtime": {
+          "TSQLParser.dll": {}
+        }
+      },
+      "Microsoft.SqlServer.Scripting.All/11.0.2100.61": {
+        "runtime": {
+          "lib/Microsoft.SqlServer.BatchParserClient.dll": {},
+          "lib/Microsoft.SqlServer.ConnectionInfo.dll": {},
+          "lib/Microsoft.SqlServer.Diagnostics.STrace.dll": {},
+          "lib/Microsoft.SqlServer.Dmf.dll": {},
+          "lib/Microsoft.SqlServer.Management.Sdk.Sfc.dll": {},
+          "lib/Microsoft.SqlServer.Management.SmoMetadataProvider.dll": {},
+          "lib/Microsoft.SqlServer.Management.SqlParser.dll": {},
+          "lib/Microsoft.SqlServer.ServiceBrokerEnum.dll": {},
+          "lib/Microsoft.SqlServer.Smo.dll": {},
+          "lib/Microsoft.SqlServer.SqlClrProvider.dll": {},
+          "lib/Microsoft.SqlServer.SqlEnum.dll": {},
+          "lib/microsoft.sqlserver.batchparser.dll": {}
+        }
+      },
+      "Microsoft.SqlServer.SqlManagementObjects/140.17199.0": {
+        "dependencies": {
+          "System.Data.SqlClient": "4.4.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Microsoft.Data.Tools.Sql.BatchParser.dll": {},
+          "lib/netcoreapp2.0/Microsoft.SqlServer.Management.Dmf.dll": {},
+          "lib/netcoreapp2.0/NetCoreGlobalization.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/Microsoft.SqlServer.BatchParser.dll": {
+            "rid": "win-x64",
+            "assetType": "native"
+          },
+          "runtimes/win-x64/native/Microsoft.SqlServer.XE.Core.dll": {
+            "rid": "win-x64",
+            "assetType": "native"
+          },
+          "runtimes/win-x64/native/Microsoft.SqlServer.XEvent.Linq.dll": {
+            "rid": "win-x64",
+            "assetType": "native"
+          },
+          "runtimes/win-x86/native/Microsoft.SqlServer.BatchParser.dll": {
+            "rid": "win-x86",
+            "assetType": "native"
+          },
+          "runtimes/win-x86/native/Microsoft.SqlServer.XE.Core.dll": {
+            "rid": "win-x86",
+            "assetType": "native"
+          },
+          "runtimes/win-x86/native/Microsoft.SqlServer.XEvent.Linq.dll": {
+            "rid": "win-x86",
+            "assetType": "native"
+          }
+        }
+      },
+      "Microsoft.SqlServer.TransactSql.ScriptDom/14.0.3660.1": {
+        "runtime": {
+          "lib/net40/Microsoft.SqlServer.TransactSql.ScriptDom.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.4.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.4.0",
+          "System.Security.Principal.Windows": "4.4.0"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.4.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.4.0",
+          "System.Security.Principal.Windows": "4.4.0",
+          "System.Text.Encoding.CodePages": "4.4.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.4.0": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.4.0"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.4.0": {
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TSQLParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.SqlServer.Scripting.All/11.0.2100.61": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3FdNBENAoe5XU/douUmUTzEIqYuBly8CFXDpHww+co6c5E9Tjq5w8TjldWehusJdZBOb49XGbHB/nR2VjxbOKA==",
+      "path": "microsoft.sqlserver.scripting.all/11.0.2100.61",
+      "hashPath": "microsoft.sqlserver.scripting.all.11.0.2100.61.nupkg.sha512"
+    },
+    "Microsoft.SqlServer.SqlManagementObjects/140.17199.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uJrRDB2mWMRCeBW/9AJo8owf4wz+5j0pj84F9EAx/MGG+Xil2lenJKqq2brC2UtzXwdmuzePe4AGg13NsyzCdA==",
+      "path": "microsoft.sqlserver.sqlmanagementobjects/140.17199.0",
+      "hashPath": "microsoft.sqlserver.sqlmanagementobjects.140.17199.0.nupkg.sha512"
+    },
+    "Microsoft.SqlServer.TransactSql.ScriptDom/14.0.3660.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3idoizmYz6t8GoQd/8Ebt1DXKAkCeMNSnQ+65X1OB5QVwiBmPuTwC20wnTZG9y/QQJDkl+BlCRhNVmsXRGbRzA==",
+      "path": "microsoft.sqlserver.transactsql.scriptdom/14.0.3660.1",
+      "hashPath": "microsoft.sqlserver.transactsql.scriptdom.14.0.3660.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dA36TlNVn/XfrZtmf0fiI/z1nd3Wfp2QVzTdj26pqgP9LFWq0i1hYEUAW50xUjGFYn1+/cP3KGuxT2Yn1OUNBQ==",
+      "path": "microsoft.win32.registry/4.4.0",
+      "hashPath": "microsoft.win32.registry.4.4.0.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fxb9ghn1k1Ua7FFdlvtiBOD4/PsQvD/fk2KnhS+FK7VC6OggEx6P+lP1P0+KMb5V2dqS1+FbR7HCenoqzJMNIA==",
+      "path": "system.data.sqlclient/4.4.0",
+      "hashPath": "system.data.sqlclient.4.4.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2NRFPX/V81ucKQmqNgGBZrKGH/5ejsvivSGMRum0SMgPnJxwhuNkzVS1+7gC3R2X0f57CtwrPrXPPSe6nOp82g==",
+      "path": "system.security.accesscontrol/4.4.0",
+      "hashPath": "system.security.accesscontrol.4.4.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pP+AOzt1o3jESOuLmf52YQTF7H3Ng9hTnrOESQiqsnl2IbBh1HInsAMHYtoh75iUYV0OIkHmjvveraYB6zM97w==",
+      "path": "system.security.principal.windows/4.4.0",
+      "hashPath": "system.security.principal.windows.4.4.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "path": "system.text.encoding.codepages/4.4.0",
+      "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
+    }
+  }
+}
