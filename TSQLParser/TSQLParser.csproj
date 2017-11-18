@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.SqlServer.Scripting.All" Version="11.0.2100.61" />
     <PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="140.17199.0" />
     <PackageReference Include="Microsoft.SqlServer.TransactSql.ScriptDom" Version="14.0.3660.1" />
+    <PackageReference Include="System.Runtime" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

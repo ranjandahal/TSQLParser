@@ -1,5 +1,6 @@
 ﻿using System;
-using Microsoft.SqlServer.
+using Microsoft.SqlServer.TransactSql.ScriptDom;
+
 namespace TSQLParser
 {
     class Program

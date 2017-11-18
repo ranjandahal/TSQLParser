@@ -1,21 +1,29 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "9fa2b4d937ed9e064c5d946987827e4d6b3c2926"
+    "signature": "01cf59dd02e932b7782c330c009605f9039b2492"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "TSQLParser/1.0.0": {
         "dependencies": {
+          "Dapper.Microsoft.Sql": "0.0.5",
           "Microsoft.SqlServer.Scripting.All": "11.0.2100.61",
           "Microsoft.SqlServer.SqlManagementObjects": "140.17199.0",
-          "Microsoft.SqlServer.TransactSql.ScriptDom": "14.0.3660.1"
+          "Microsoft.SqlServer.TransactSql.ScriptDom": "14.0.3660.1",
+          "System.Runtime": "4.3.0"
         },
         "runtime": {
           "TSQLParser.dll": {}
         }
       },
+      "Dapper.Microsoft.Sql/0.0.5": {
+        "runtime": {
+          "lib/Dapper.Microsoft.Sql.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.SqlServer.Scripting.All/11.0.2100.61": {
         "runtime": {
           "lib/Microsoft.SqlServer.BatchParserClient.dll": {},
@@ -141,6 +149,11 @@
           }
         }
       },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
       "System.Security.AccessControl/4.4.0": {
         "dependencies": {
           "System.Security.Principal.Windows": "4.4.0"
@@ -186,6 +199,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper.Microsoft.Sql/0.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4bKKK7Po1CNOS5zP0IZFv0h+8nyw5+eyvCZNanZNt3VF3YrqYKIeZzlKxZsiVY6d4AC/DDTCSoIlJobE2SaO4A==",
+      "path": "dapper.microsoft.sql/0.0.5",
+      "hashPath": "dapper.microsoft.sql.0.0.5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
     "Microsoft.SqlServer.Scripting.All/11.0.2100.61": {
       "type": "package",
@@ -249,6 +276,13 @@
       "sha512": "sha512-fxb9ghn1k1Ua7FFdlvtiBOD4/PsQvD/fk2KnhS+FK7VC6OggEx6P+lP1P0+KMb5V2dqS1+FbR7HCenoqzJMNIA==",
       "path": "system.data.sqlclient/4.4.0",
       "hashPath": "system.data.sqlclient.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
     },
     "System.Security.AccessControl/4.4.0": {
       "type": "package",
